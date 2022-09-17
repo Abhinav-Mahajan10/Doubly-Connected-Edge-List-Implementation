@@ -1,0 +1,41 @@
+Edges:
+0
+1
+2
+3
+HalfEdges:
+startVertexIndex=0 endVertexIndex=1 nextEdge=1 previousEdge=3 faceIndex=0 edgeIndex=0
+startVertexIndex=1 endVertexIndex=2 nextEdge=2 previousEdge=0 faceIndex=0 edgeIndex=1
+startVertexIndex=2 endVertexIndex=3 nextEdge=3 previousEdge=1 faceIndex=0 edgeIndex=2
+startVertexIndex=3 endVertexIndex=0 nextEdge=0 previousEdge=2 faceIndex=0 edgeIndex=3
+Faces:
+FaceIndex:0 Edges 0->1->2->3
+
+
+Edges:
+0
+1
+2
+3
+4
+5
+6
+HalfEdges:
+startVertexIndex=0 endVertexIndex=1 nextEdge=1 previousEdge=3 faceIndex=0 edgeIndex=0
+startVertexIndex=1 endVertexIndex=2 nextEdge=2 previousEdge=0 faceIndex=0 edgeIndex=1
+startVertexIndex=2 endVertexIndex=4 nextEdge=4 previousEdge=1 faceIndex=0 edgeIndex=2
+startVertexIndex=4 endVertexIndex=5 nextEdge=3 previousEdge=2 faceIndex=0 edgeIndex=4
+startVertexIndex=5 endVertexIndex=0 nextEdge=0 previousEdge=4 faceIndex=0 edgeIndex=3
+startVertexIndex=5 endVertexIndex=4 nextEdge=5 previousEdge=6 faceIndex=1 edgeIndex=4
+startVertexIndex=4 endVertexIndex=3 nextEdge=6 previousEdge=4 faceIndex=1 edgeIndex=5
+startVertexIndex=3 endVertexIndex=5 nextEdge=4 previousEdge=5 faceIndex=1 edgeIndex=6
+Faces:
+FaceIndex:0 Edges 0->1->2->4->3
+FaceIndex:1 Edges 4->5->6
+
+
+Id: 0
+Id: 0
+Id: 0, 1
+Id: 0, 1
+Id: -1
